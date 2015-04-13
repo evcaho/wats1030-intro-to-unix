@@ -15,6 +15,7 @@ and then clone it to your development environment.
 ### Navigating the Filesystem
 
 * Get an idea of where you are in the operating system. Use the `pwd` command to find your "path to working directory"--your current location in the filesystem of your devbox. *
+* 
 /home/cabox/workspace  
 * Discover more about this filesystem. 
 Use `ls` (the "list" command)to see what is in this directory. 
@@ -22,10 +23,12 @@ Use `ls` (the "list" command)to see what is in this directory.
 LICENSE  README.md  challenge_files  nix_scavenger_hunt.md  nix_scavenger_hunt_stretch.md  
 
 * You can use *options* to modify how a command runs. Try using `ls -alh` to see the contents of your current directory. 
+* 
 The results are listed alphabetically and vertically, include dates of fork (presumably) and size of files. 
 
 * The `man` ("manual") command tells you more about how any given command works. Run `man` to see instructions about how to use `man`. 
 Then use `man` to learn what the `a`, `l`, and `h` options mean when used with the `ls` command. 
+
 This worked in Terminal but not CA. 
 ls a:  -a      Include directory entries whose names begin with a dot (.).
 ls l: (The lowercase letter ``ell''.)  List in long format.  (See
@@ -43,6 +46,7 @@ bin  boot  dev  etc  fastboot  home  lib  lib64  media  mnt  opt  proc  root  ru
 
 * Another special shortcut in Unix is the `~` location. This indicates the *user root* directory, meaning the top-most directory in the hierarchy that comes below your user account. Use `cd` to move to `~`. *Run `pwd` and paste the response here:*
 /home/cabox  
+
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. *How many files do you find?*
 2015_special_stuff.demo
 cloaked-wookie.demo
