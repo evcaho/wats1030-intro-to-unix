@@ -15,7 +15,7 @@ and then clone it to your development environment.
 ### Navigating the Filesystem
 
 * Get an idea of where you are in the operating system. Use the `pwd` command to find your "path to working directory"--your current location in the filesystem of your devbox. *
-* 
+ 
 /home/cabox/workspace  
 * Discover more about this filesystem. 
 Use `ls` (the "list" command)to see what is in this directory. 
@@ -48,9 +48,10 @@ bin  boot  dev  etc  fastboot  home  lib  lib64  media  mnt  opt  proc  root  ru
 /home/cabox  
 
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. *How many files do you find?*
-2015_special_stuff.demo
-cloaked-wookie.demo
-scooter-double-mamba.demo   
+Three: 
+* 2015_special_stuff.demo
+* cloaked-wookie.demo
+* scooter-double-mamba.demo   
 
 * Use the `cd` command to move "up" one directory. *Where are you in the filesystem now?*
 cabox@box-codeanywhere:~/workspace$  
